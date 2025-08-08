@@ -96,7 +96,6 @@ const appendTodo = (newTodo:Todo) =>{
 
 
    additem.classList.add("item")
-    additem.textContent = newTodo.todo;
 
     deletebtn.textContent = "Delete";
     deletebtn.className = "delete";

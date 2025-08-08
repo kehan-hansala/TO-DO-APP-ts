@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="container">
+    <div class="head">
+        <h2>TO DO LIST</h2>
+    </div>
+
+    <div class="stat-info">
+        <div class="stat-count">
+            <span id="totalTask">0</span>
+            <p class="all">All</p>
+        </div>
+
+        <div class="stat-count">
+            <span id="pendingTask">0</span>
+            <p class="all">pending</p>
+        </div>
+
+        <div class="stat-count">
+            <span id="completeTask">0</span>
+            <p class="all">complete</p>
+        </div>
+    </div>
+
+
+    <div class="stat-button">
+        <button>All</button>
+        <button>pending</button>
+        <button>complete</button>
+    </div>
+
+    <div id="wrapper" class="task-add">
+        <form id="taskForm">
+            <input type="text" id="text">
+            <button id="sub" type="submit">Add</button>
+        </form>
+    </div>
+        <ul id="task-List">
+
+        </ul>
+
+
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>

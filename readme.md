@@ -19,7 +19,7 @@
 
 ## 🚀 Demo
 
-![Todo App Demo](./demo.gif)
+![Todo App Demo](img/Capture.PNG)
 
 *Add a screenshot or GIF of your app here*
 
